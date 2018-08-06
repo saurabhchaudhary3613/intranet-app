@@ -1,0 +1,17 @@
+$entity-title-color: #7e2d40;
+
+.card-container {
+  background: lightgray;
+  padding: 15px;
+  border: 1px solid grey;
+
+  .card-title {
+    color: $entity-title-color;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+  }
+  .card-body {
+    font-size: 0.75rem;
+    padding-bottom: 30px;
+  }
+}

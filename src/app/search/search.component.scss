@@ -1,0 +1,21 @@
+
+$search-text-color: #7e2d40;
+
+.search-container {
+    margin-top:25px;
+}
+.search-input {
+    background: white;
+    border: 1px solid grey !important;
+    border-radius: 20px !important;
+    height: auto !important;
+    padding: 7px 10px!important;
+    width: 82% !important;
+    color: $search-text-color;
+}
+.search-btn {
+    background: #7e2d40;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    padding: 0 20px;
+}

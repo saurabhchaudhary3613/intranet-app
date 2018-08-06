@@ -1,0 +1,15 @@
+.list-grid {
+  font-size: 12px;
+  font-weight: bold;
+  color: #424951;
+
+  tbody {
+    tr {
+      border-bottom: 1px solid #dddddd;
+
+      td{
+        padding: 5px 0;
+      }
+    }
+  }
+}

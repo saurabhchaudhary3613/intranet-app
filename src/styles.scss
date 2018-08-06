@@ -1,0 +1,68 @@
+@import './base.scss';
+@import './variables.scss';
+
+.title-holder {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.entity-title {
+  font-size: 12px;
+  color: $entity-title-color;
+  font-weight: 600;
+}
+.entity-container {
+  background: white;
+  border-bottom: 1px solid $entity-box-bg;
+  border-right: 1px solid $entity-box-bg;
+  padding: 5px 0 8px 10px;
+  margin: 0 0 8px 0;
+
+  .entity-name {
+      font-size: 11px;
+      font-weight: bold;
+  }
+}
+.body-container {
+  background: $body-background;
+  padding: 35px 35px 120px 35px;
+}
+
+// Butoon scss
+@mixin button {
+  padding: 12px 49px;
+  color: white;
+  background: $btn-background;
+  font-size: 11px;
+  margin-right: 3px;
+  font-family: sans-serif;
+}
+.mfs-btn {
+  @include button;
+}
+
+.collapsible {
+  border: none;
+  box-shadow: none;
+}
+.collapsible-header {
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.collapsible-body {
+  padding: 0px;
+  border-bottom: 0px;
+}
+.filter-options{
+  padding: 5px 0;
+  font-size: 12px;
+
+  input {
+    width: 11px;
+  }
+}
+
+.filter-col {
+  border-right: 1px solid #979797;
+}

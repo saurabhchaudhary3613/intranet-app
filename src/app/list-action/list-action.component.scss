@@ -1,0 +1,16 @@
+
+$action-btn-color: #7e2d40;
+
+.list-action-contailer {
+  margin-bottom: 10px;
+}
+
+
+.list-action-btn {
+  font-size: 12px;
+  color: $action-btn-color;
+  cursor: pointer;
+   &:first-child {
+    margin-right: 8%;
+   }
+}

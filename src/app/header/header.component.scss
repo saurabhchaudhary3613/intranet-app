@@ -1,0 +1,14 @@
+
+$header-background: #ccd3db;
+
+.header-container {
+  padding: 0px;
+  border:none;
+}
+.header-text {
+  padding: 5px 0 15px 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 1px solid #c2c9d0;
+  background: $header-background;
+}
